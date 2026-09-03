@@ -1,0 +1,27 @@
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Generated local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Excel exports and local upload files
+*.xlsx
+*.xls
+
+# IDE and operating-system files
+.DS_Store
+.vscode/
+.idea/

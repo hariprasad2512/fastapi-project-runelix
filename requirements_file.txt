@@ -1,0 +1,32 @@
+Requirements
+    1. Create a FastAPI project using the latest stable version.
+    2. Create the project folder structure following a clean and scalable architecture.
+    3. Configure the PostgreSQL database connection.
+    4. Create the required database tables.
+    5. Read the provided Excel file.
+    6. Validate that all mandatory columns exist in the Excel file.
+    7. Validate that the following mandatory fields are not empty:
+        ◦ Product Name
+        ◦ Category
+        ◦ Price
+        ◦ Quantity
+        ◦ Supplier Name
+        ◦ Supplier Email
+    8. If any mandatory field is missing or empty, skip the record and log the reason.
+    9. Validate that the Supplier Email is in a valid email format.
+    10. Validate that Price and Quantity contain valid numeric values.
+    11. Store the validated Excel data into the following database tables:
+    • products
+    • suppliers
+    12. Skip duplicate products based on the Product Name.
+    13. Establish the relationship between the products and suppliers tables using a foreign key.
+    14. Implement proper exception handling throughout the application.
+    15. Return all API responses in JSON format.
+    16. Add logging for API requests, successful insertions, skipped records, validation failures, and application errors.
+REST APIs
+    1. Create a GET API to fetch all products.
+    2. Create a GET API to fetch a product by ID.
+    3. Create a GET API to fetch products by category.
+    4. Create a POST API to add a new product.
+    5. Create a PUT API to update product details.
+    6. Create a DELETE API to delete a product.
