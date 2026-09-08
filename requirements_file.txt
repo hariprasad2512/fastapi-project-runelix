@@ -23,6 +23,7 @@ Requirements
     14. Implement proper exception handling throughout the application.
     15. Return all API responses in JSON format.
     16. Add logging for API requests, successful insertions, skipped records, validation failures, and application errors.
+    
 REST APIs
     1. Create a GET API to fetch all products.
     2. Create a GET API to fetch a product by ID.
